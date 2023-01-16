@@ -1,0 +1,105 @@
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #333333;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #252525;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+body {
+  margin: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333333;
+}
+
+.seta img{
+  margin-top: 15px;
+  margin-left: 13px;
+  width: 15px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+/*AVALIACOES*/
+.container2{
+  color: whitesmoke;
+  background-color: #313131;
+  margin: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  display: grid;
+  width: 85%;
+  grid-gap: 20px;
+  position: relative;
+  margin-bottom: 100px;
+  align-content: center;
+}
+
+h1{
+  font-size: 35px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+textarea{
+  text-decoration: none;
+  border: none;
+  margin: 10px;
+  margin-bottom: 0;
+  width: 670px;
+  height: 140px;
+  border-radius: 10px;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.botão{
+  position: relative;
+}
+
+button{
+  width: 80px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #333333;
+  margin: 10px;
+  background: #111111;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card2{
+  width: 95%;
+  background-color: #333333;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 25px;
+  text-align: justify;
+  margin: 0 auto;
+}
+.card2 p{
+  margin: 10px;
+}
+
+.card2 textarea{
+  line-height: 25px;
+  margin-left: 27px;
+  background-color: #313131;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: #f4f9fc;
+}

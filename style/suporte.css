@@ -1,0 +1,168 @@
+body::-webkit-scrollbar {
+	width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #333333;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: #252525;    /* color of the scroll thumb */
+	border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+  *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../adm/Imagens/Imagens_index/banner.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.seta img{
+	margin-top: 15px;
+	margin-left: 13px;
+	width: 15px;
+	height: auto;
+  }
+.cards{
+	background-color: #333333;
+	padding: 15px;
+	border-radius: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 1100px;
+	margin: 0 auto;
+	grid-gap: 40px;
+	margin-top: 10px;
+}
+h1{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 4rem 0;
+	font-size: 40px;
+	color: whitesmoke;
+}
+h3{
+	display: flex;
+	justify-content: left;
+	margin: 0 0 1rem 0;
+	font-size: 20px;
+	color: whitesmoke;
+}
+.accordion {
+	background-color: #313131;
+	color:  whitesmoke;
+	cursor: pointer;
+	padding: 16px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	transition: 0.4s;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.active, .accordion:hover {
+	background-color: #111111;
+}
+
+.resposta {
+	padding: 0 30px;
+	font-size: 15px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	color: whitesmoke;
+	margin-bottom: 10px;
+}
+
+textarea{
+    text-decoration: none;
+    border: none;
+    margin-right: 30px;
+    margin-bottom: 0;
+    background-color: #313131;
+	font-size: 16px;
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    color: whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+.botão{
+    position: relative;
+  }
+  
+  button{
+    width: 80px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #333333;
+    margin: 10px;
+    background: #111111;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /*RODAPE*/
+  p{
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 27px;
+	color: whitesmoke;
+}
+ul{
+	height: 50px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+li{
+	margin: 0 10px;
+}
+a{
+	text-decoration: none;
+	color: #f4f9fc;
+}
+a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+a:hover i{
+	color: #333333;
+}
+.redes{
+	color: whitesmoke;
+}
+.footer-bottom{
+	background: #111111;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	margin-top: 5%;
+}
+.footer-bottom p{
+	text-align: center;
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
